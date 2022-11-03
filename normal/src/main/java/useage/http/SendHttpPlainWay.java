@@ -9,7 +9,7 @@ import java.nio.file.StandardCopyOption;
 
 public class SendHttpPlainWay {
     public static void main(String[] args) throws IOException {
-        String fileUrl = "http://localhost:8080/get1";
+        String fileUrl = "https://github.com/modernshe/garden/blob/main/resorces/cloud.jpg?raw=true";
         URLConnection connection = new URL(fileUrl).openConnection();
         connection.setConnectTimeout(3000);
 
